@@ -76,6 +76,12 @@ ms-vscode.hexeditor
 ## Extensive Link You May Need:
 for hackerrank..c file, you can find the problem here: [Hackerrank](https://www.hackerrank.com/contests/dp-modul-1-h/challenges)
 
+## Contact Me
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ahmad-fakhrul-bawani)
+[![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=WhatsApp&logoColor=white)](https://wa.me/6285385539271)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ahmadfakhrulbawani2@gmail.com)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/fkhrl_91)
+
 ##### Author: [Ahmad Fakhrul Bawani](https://github.com/ahmadfakhrulbawani2-arch)  
 
 <p align="right">
