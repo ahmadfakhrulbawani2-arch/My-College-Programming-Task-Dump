@@ -1,9 +1,9 @@
 # My College Programming Task
 <div style="display: flex; flex-wrap: wrap; gap: 8px;">
 
-  <img src="https://img.shields.io/github/repo-size/ahmadfakhrulbawani2-arch/CodeForces-All-Problems?style=for-the-badge&color=orange">
-  <img src="https://img.shields.io/github/stars/ahmadfakhrulbawani2-arch/CodeForces-All-Problems?style=for-the-badge&color=yellow">
-  <img src="https://img.shields.io/github/forks/ahmadfakhrulbawani2-arch/CodeForces-All-Problems?style=for-the-badge&color=purple">
+  <img src="https://img.shields.io/github/repo-size/ahmadfakhrulbawani2-arch/My-College-Programming-Task-Dump?style=for-the-badge&color=orange">
+  <img src="https://img.shields.io/github/stars/ahmadfakhrulbawani2-arch/My-College-Programming-Task-Dump?style=for-the-badge&color=yellow">
+  <img src="https://img.shields.io/github/forks/ahmadfakhrulbawani2-arch/My-College-Programming-Task-Dump?style=for-the-badge&color=purple">
 
   <img src="https://img.shields.io/badge/C-A8B9CC?logo=c&logoColor=white&style=for-the-badge">
   <img src="https://img.shields.io/badge/GCC-303030?logo=gnu&logoColor=white&style=for-the-badge">
@@ -79,5 +79,5 @@ for hackerrank..c file, you can find the problem here: [Hackerrank](https://www.
 ##### Author: [Ahmad Fakhrul Bawani](https://github.com/ahmadfakhrulbawani2-arch)  
 
 <p align="right">
-  <img src="https://img.shields.io/github/last-commit/ahmadfakhrulbawani2-arch/CodeForces-All-Problems?style=for-the-badge&color=brightgreen" alt="Last Commit">
+  <img src="https://img.shields.io/github/last-commit/ahmadfakhrulbawani2-arch/My-College-Programming-Task-Dump?style=for-the-badge&color=brightgreen" alt="Last Commit">
 </p>
