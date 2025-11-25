@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+#define ll long long
+
 typedef struct _penduduk {
     char nama[40];
     short tahun_lahir;
@@ -20,15 +22,19 @@ int main(void) {
         return 1;
     }
 
-    fseek(fp, 4, SEEK_SET); // --> Ada 4 bit offset ternyata
+    int banyak_data;
+    fread(&banyak_data, sizeof(int), 1, fp);
+
+    // fseek(fp, 4, SEEK_SET); // --> Ada 4 bit offset ternyata adalah banyak data.
+    
     printf("\n%-40s %-20s %-20s %s", "Nama", "Tanggal Lahir", "Desa", "Kecamatan\n");
     printf("====================================================================================================\n");
     // printf("----------------------------------------------------------------------------------------------------\n");
 
-    penduduk rec;
+    penduduk rec; int count = 0;
     while(fread(&rec, sizeof(penduduk), 1, fp) == 1) {
         short tahun, tanggal, bulan;
-        tahun = rec.tahun_lahir % 100;
+        tahun = rec.tahun_lahir;
         bulan = rec.bulan_lahir % 13;
         tanggal = rec.tanggal_lahir % 40;
 
@@ -47,9 +53,14 @@ int main(void) {
 
         int umur = 2025 - rec.tahun_lahir;
 
-        if((umur >= 6 && umur <= 17) || (umur >= 60)) showRec(rec, tahun, bulan, tanggal);
+        if((umur >= 6 && umur <= 17) || (umur >= 60)) {
+            showRec(rec, tahun, bulan, tanggal);
+            count++;
+        }
         else continue;
+
     }
+    printf("Menampilkan: %d records dari %d\n", count, banyak_data);
 
     fclose(fp);
     return 0;
@@ -60,6 +71,6 @@ void showRec(penduduk rec, short tahun, short bulan, short tanggal) {
     rec.desa[19] = '\0';
     rec.kecamatan[19] = '\0';
     printf("%-40s ", rec.nama);
-    printf("%02hd-%02hd-%02hd             ", tanggal, bulan, tahun);
+    printf("%02hd-%02hd-%04hd             ", tanggal, bulan, tahun);
     printf("%-20s %-20s\n", rec.desa, rec.kecamatan);
 }
