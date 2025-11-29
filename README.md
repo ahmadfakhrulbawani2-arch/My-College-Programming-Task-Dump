@@ -64,7 +64,7 @@ pdf/ = Store PDF problemset
 .dat file in Tugas 6_Reading Files = A binary dataset for reading.c
 
 src/ = all .c files
-include/ = all custom library or header .h files
+include/ = all custom library or header .h files (see below for different compiling instruction)
 
 ## Compiling & Running Instruction
 
@@ -80,6 +80,12 @@ To read .dat binary file I mention use Hex Editor: [Hex Editor-Microsoft](https:
 or if you use VsCode:
 ```txt
 ms-vscode.hexeditor
+```
+
+### Compiling src and include folders
+So I make Task 7 a new project including custom header files I make. To compile:
+```bash
+gcc src/*.c -I include -o program -lm
 ```
 ## Extensive Link You May Need:
 for hackerrank..c file, you can find the problem here: [Hackerrank](https://www.hackerrank.com/contests/dp-modul-1-h/challenges)
