@@ -43,6 +43,11 @@ This structure is from 1st commits only. I have no time to update it everytime :
 |-- Tugas 6_Reading Files/
 |   |
 |   |-- 3 mixed files
+|-- Task 7_Calculate-Circumcenter-Area-Perimeter/
+|   |
+|   |-- src/
+|   |
+|   |-- include/
 |
 |-- 4 mixed files
 
@@ -57,6 +62,9 @@ divyanshuagrawal.competitive-programming-helper
 code/ = Store C files only
 pdf/ = Store PDF problemset
 .dat file in Tugas 6_Reading Files = A binary dataset for reading.c
+
+src/ = all .c files
+include/ = all custom library or header .h files
 
 ## Compiling & Running Instruction
 
