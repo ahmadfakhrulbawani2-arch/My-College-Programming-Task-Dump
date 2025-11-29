@@ -2,6 +2,7 @@
 #include <stdlib.h>
 
 #define ll long long
+#define BULAN 11
 
 typedef struct _penduduk {
     char nama[40];
@@ -49,11 +50,15 @@ int main(void) {
         //     } else tanggal = rec.tanggal_lahir % 41;
         // }
 
-        // katakanlah kita ambil dari 31 Desember 2025, jadi kita ambil umur 6-17 dan lansia >= 60 sejak 31 Desember 2025
+        // katakanlah kita ambil dari 31 November 2025, jadi kita ambil umur 6-17 dan lansia >= 60 sejak 31 November 2025
 
-        int umur = 2025 - rec.tahun_lahir;
+        int umur = (rec.tahun_lahir < 25) ? 24 - rec.tahun_lahir : 124 - rec.tahun_lahir;
 
-        if((umur >= 6 && umur <= 17) || (umur >= 60)) {
+        if(bulan <= BULAN) {
+            umur++;
+        }
+
+        if((umur >= 6 && umur <= 17) || (umur > 60)) {
             showRec(rec, tahun, bulan, tanggal);
             count++;
         }
@@ -71,6 +76,6 @@ void showRec(penduduk rec, short tahun, short bulan, short tanggal) {
     rec.desa[19] = '\0';
     rec.kecamatan[19] = '\0';
     printf("%-40s ", rec.nama);
-    printf("%02hd-%02hd-%04hd             ", tanggal, bulan, tahun);
+    printf("%02hd-%02hd-%02hd             ", tanggal, bulan, tahun);
     printf("%-20s %-20s\n", rec.desa, rec.kecamatan);
 }
