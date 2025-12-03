@@ -1,0 +1,9 @@
+4
+Buku 5000 10
+Pensil 15000 5
+Pulpen 2000 20
+Penghapus 1000 50
+3
+SWAP 1 2
+SWAP 0 3
+PRINT
