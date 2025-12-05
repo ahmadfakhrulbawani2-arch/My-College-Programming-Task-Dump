@@ -53,6 +53,14 @@ This structure is from 1st commits only. I have no time to update it everytime :
 |   |
 |   |-- 12 Mixed Files
 |
+|-- Final-Practicum-5th-Module
+|   |
+|   |-- a lot of files
+|
+|-- Task-8_Input-Data
+|   |
+|   |-- 4 mixed files
+|
 |-- 4 mixed files
 
 ```
@@ -93,6 +101,23 @@ gcc src/*.c -I include -o program -lm
 ```
 ## Extensive Link You May Need:
 for hackerrank..c file, you can find the problem here: [Hackerrank](https://www.hackerrank.com/contests/dp-modul-1-h/challenges)
+
+for submission of Final-Practicum-5th-Module in : [ITSDomjudge](https://www.its.ac.id/informatika/domjudge/team/problems)
+
+CPH extension for VsCode: [cphJudge](https://github.com/agrawal-d/cph) or 
+```
+divyanshuagrawal.competitive-programming-helper
+```
+
+PDF viewer for VsCode: [vsCodePDF](https://github.com/tomoki1207/vscode-pdfviewer) or
+```
+tomoki1207.pdf
+```
+
+HEX Editor for VsCode: [HexEditor](https://github.com/microsoft/vscode-hexeditor.git) or 
+```
+ms-vscode.hexeditor
+```
 
 ## Contact Me
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ahmad-fakhrul-bawani)
