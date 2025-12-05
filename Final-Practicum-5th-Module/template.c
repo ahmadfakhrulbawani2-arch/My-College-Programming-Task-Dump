@@ -35,15 +35,24 @@
 typedef long long ll;
 typedef unsigned long long ull;
 typedef unsigned int usi;
-#define POSINF 100000000
-#define NEGINF -100000000
+#define POSINT 100000000
+#define NEGINT -100000000
+#define NEGLL -1000000000000000000
+#define POSLL 1000000000000000000
 #define FNDMIN(a, b) ((a < b) ? (a) : (b))
 #define FNDMAX(a, b) ((a > b) ? (a) : (b))
+#define DECISI(a, b) ((a > b) ? (1) : (2))
+#define REP2(i, m, n) for(ll i = m; i <= n; i++) // change i with var. name.
+#define REP1(i, m, n) for(ll i = m; i < n; i++) // change i with var. name.
 #define ASCIIa 97
 #define ASCIIz 122
 #define ASCIIA 65
 #define ASCIIZ 90
+#define ASCII0 48
+#define ASCII9 57
+#define AWAL int main(void) {
+#define AKHIR return 0;}
 
-int main(void) {
-    return 0;
-}
+AWAL
+
+AKHIR
