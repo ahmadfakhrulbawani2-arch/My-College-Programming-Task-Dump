@@ -1,0 +1,4 @@
+Crate 1, Zone 1 -> Zone 2 (Cost: 1)
+Crate 2, Zone 1 -> Zone 3 (Cost: 4)
+Crate 1, Zone 2 -> Zone 3 (Cost: 1)
+6
